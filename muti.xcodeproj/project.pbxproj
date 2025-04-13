@@ -36,6 +36,7 @@
 				757C11D82DAABBFB002CEAA9 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		757C11D82DAABBFB002CEAA9 /* Products */ = {
 			isa = PBXGroup;
@@ -79,6 +80,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
+				ORGANIZATIONNAME = GLEESH;
 				TargetAttributes = {
 					757C11D62DAABBFB002CEAA9 = {
 						CreatedOnToolsVersion = 16.3;
@@ -263,6 +265,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.muti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +293,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.muti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
