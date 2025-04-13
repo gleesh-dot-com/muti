@@ -12,6 +12,8 @@
 
 default_platform(:macos)
 
+xcodes(version: "16.3")
+
 desc "Description of what the lane does"
 lane :build do |options|
 	gym(
