@@ -10,7 +10,7 @@
 #     https://docs.fastlane.tools/plugins/available-plugins
 #
 
-default_platform(:macos)
+default_platform(:mac)
 
 xcodes(version: "16.3")
 
